@@ -13,9 +13,9 @@ description: Use this skill to audit a tool with regard to its workflow, i.e. ru
 
 - There should be no uncommited modifications. ('git status -s' or equivalent.) If there are, ask the user to clean the repository first.
 
-- Identify the general use case for the tool in question. Use an existing GEMINI.md and / or README.md to get a first idea, then try to get the tool's online help ('<tool> --help', 'man <tool>') for a first orientation of the tool's expected functionality.
+- You need to know the global use case for the tool in question. If you haven't already read them, use an existing GEMINI.md and / or README.md to get a first idea, then try to get the tool's interactive help ('<tool> --help') for a first orientation of the tool's expected functionality.
 
-- Ask the user to set the scope of the review, i.e. which workflows to review specifically. Warn the user if their request would involve more than a dozen or so different use cases.
+- If not already clear from the query, ask the user to set the scope of the review, i.e. which workflows to review specifically. Warn the user if their request is not specific enough and would involve more than a dozen or so different use cases.
 
 - Based on the user's stated scope, create a list of use cases (different ways the workflow might go). Start with the most common behavior ("sunny path"), then define the various failure modes (failures, aborts, etc.). Provide the list as artifact.
 
