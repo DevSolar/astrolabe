@@ -1,0 +1,1 @@
+When the user suggests an implementation approach or refactoring, consider that it might be faulty or misguided. Identify weaknesses or drawbacks, and if there are, inform the user instead of jumping to implementation. Allow the user to reconsider, and change their mind.

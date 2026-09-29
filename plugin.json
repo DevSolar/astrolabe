@@ -1,0 +1,10 @@
+{
+    "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+    "name": "astrolabe",
+    "version": "0.1.0",
+    "description": "DevSolar's collection of general-purpose AI skills and rules.",
+    "author": {
+        "name": "Solar"
+    },
+    "license": "CC0"
+}

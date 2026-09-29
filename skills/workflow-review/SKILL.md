@@ -11,7 +11,7 @@ description: Use this skill to audit a tool with regard to its workflow, i.e. ru
 
 - You should know the version control system in use. (Check for Git, Subversion, Mercurial, RCS. If you can identify neither, ask the user which VCS is being used.)
 
-- There should be no uncommited modifications. ('git status -s' or equivalent.) If there are, ask the user to clean the repository first.
+- There should be no uncommitted modifications. ('git status -s' or equivalent.) If there are, ask the user to clean the repository first.
 
 - You need to know the global use case for the tool in question. If you haven't already read them, use an existing GEMINI.md and / or README.md to get a first idea, then try to get the tool's interactive help ('<tool> --help') for a first orientation of the tool's expected functionality.
 
